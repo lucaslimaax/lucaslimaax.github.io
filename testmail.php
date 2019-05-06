@@ -4,15 +4,15 @@ ini_set('display_errors', 1);
 
 error_reporting(E_ALL);
 
-$from = "testing @ yourdomain";
+$from = "lucashendall@gmail.com";
 
-$to = "recipientemailaddress";
+$to = "lucashendall@gmail.com";
 
 $subject = "Verificando o correio do PHP";
 
 $message = "O correio do PHP funciona bem";
 
-$headers = "De:". $from;
+$headers = "De: LImax TI". $from;
 
 mail($to, $subject, $message, $headers);
 
