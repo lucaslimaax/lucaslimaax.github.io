@@ -1,6 +1,7 @@
+
 <!DOCTYPE html>
 <!Author: Limax>
-<!Version: 1.0>
+<!Version: 1.2>
 <html lang="pt">
 
 <head>
@@ -65,7 +66,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Limax TI</a>
+                <a class="navbar-brand page-scroll" href="https://lucaslimaax.github.io/">Limax TI</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -118,7 +119,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://github.com/lucaslimaax/Shell-and-Combo-Sort" target="_blank" class="portfolio-link" data-toggle="modal">
+                    <a href="projects/ordenacao-dados.html" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -284,9 +285,10 @@
         </div>
     </section>
 
-    
-
-    <!-- Contact Section -->
+     
+         <!-- Contact Section -->
+       
+        
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -297,32 +299,32 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
+                    <form action="enviar.php" method="post" id="contactForm" novalidate>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Seu nome *" id="name" required data-validation-required-message="Digite seu nome.">
+                                    <input type="text" class="form-control" placeholder="Seu nome *" name="nome" id="name" required data-validation-required-message="Digite seu nome.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" id="email" required data-validation-required-message="Digite seu Email.">
+                                    <input type="text" class="form-control" placeholder="Email *" name="email" id="email" required data-validation-required-message="Digite seu Email.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Assunto *" id="phone" required data-validation-required-message="Digite o assunto da mensagem.">
+                                    <input type="tel" class="form-control" placeholder="Assunto  *" name="assunto" id="phone" required data-validation-required-message="Digite o assunto da mensagem.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mensagem *" id="message" required data-validation-required-message="Digite a mensagem aqui"></textarea>
+                                    <textarea class="form-control" placeholder="Mensagem *" name="mensagem" id="message" required data-validation-required-message="Digite a mensagem aqui"></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar Mensagem</button>
+                                <button type="submit" name="Enviar" formmethod="POST" class="btn btn-xl">Enviar Mensagem</button>
                             </div>
                         </div>
                     </form>

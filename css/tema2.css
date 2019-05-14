@@ -230,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: none;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -306,6 +306,14 @@ section h3.section-subheading {
   margin: 15px 0;
   text-transform: none;
 }
+
+#post .h4{
+   margin: 0 0 15px;
+  right: 0;
+  text-color: #FFFF00;
+  
+}
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
@@ -587,27 +595,27 @@ section#contact ::-webkit-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3d3b3b;
+  color: #eeeeee;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3d3b3b;
+  color: #eeeeee;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3d3b3b;
+  color: #eeeeee;
 }
 section#contact :-ms-input-placeholder {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-  color: #3d3b3b;
+  color: #eeeeee;
 }
 section#contact .text-danger {
   color: #e74c3c;
