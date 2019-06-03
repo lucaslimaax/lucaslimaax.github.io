@@ -245,6 +245,8 @@ header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
+@media (min-width: 768px) {
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-style: italic;
@@ -252,6 +254,9 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 }
+}
+
+@media (min-width: 768px) {
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -259,6 +264,7 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+}
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -317,6 +323,7 @@ section h3.section-subheading {
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+  
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -623,6 +630,7 @@ section#contact .text-danger {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #222222;
  
 }
 footer span.copyright {
@@ -630,6 +638,7 @@ footer span.copyright {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   text-transform: none;
+  color:#fed136;
 }
 footer ul.quicklinks {
   margin-bottom: 0;
@@ -757,3 +766,11 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #fed136;
 }
+
+.thumb-contenido{
+    
+    margin-bottom:1%;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
